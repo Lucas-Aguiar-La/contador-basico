@@ -11,20 +11,20 @@ let increase = document.querySelector(".inc_btn");
 increase.addEventListener("click", function () {
   num_element.innerHTML = ++num;
   if (num > 0) {
-    num_element.style.color = "green";
+    num_element.style.color = "#55ec8f";
   } else if (num === 0) {
-    num_element.style.color = "black";
+    num_element.style.color = "#333232c2";
   }
 });
 reset.addEventListener("click", function () {
   num_element.innerHTML = num = 0;
-  num_element.style.color = "black";
+  num_element.style.color = "#333232c2";
 });
 decrease.addEventListener("click", function () {
   num_element.innerHTML = --num;
   if (num < 0) {
-    num_element.style.color = "red";
+    num_element.style.color = "#e75c5c";
   } else if (num === 0) {
-    num_element.style.color = "black";
+    num_element.style.color = "#333232c2";
   }
 });
